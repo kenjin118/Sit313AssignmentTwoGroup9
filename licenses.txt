@@ -1,0 +1,15 @@
+Restaurant app
+Copyright (C) 2018 Deakin Students * Group9
+All Rights Reserved
+Web:http://www.deakin.edu.au
+E-mail:jinshi@deakin.edu.au
+Developers:SHIQI JIN CHENMING CUI WENYI LIANG
+Support Tel.0452301567
+ 
+*** LICENSE AGREEMENT ***
+ 
+Please carefully read the following terms and conditions before using "Restaurant app". The license agreement is the contract between you and "Group9". By using the "Restaurant app" you are agreeing to all the limitations and rules provided by "SHIQI JIN CHENMING CUI WENYI LIANG". In case you are do not agree with the following license agreement, you should not use or download or store "Restaurant app".
+ 
+*** BASIC LICENSE AGREEMENT ***
+ 
+1. Restaurant app is a result of the intellectual property of "SHIQI JIN CHENMING CUI WENYI LIANG" and is protected by intellectual property laws. You will be able to use "Restaurant app" only within the scope of the current license agreement. In case you do not agree to the terms set forth, please do not use or download or store "Restaurant app".

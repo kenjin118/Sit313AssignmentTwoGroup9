@@ -22,6 +22,6 @@ How To Install The Modules
 
 StudentName and ID :
 
-SHIQI JIN 217395988
+SHIQI JIN  
 CHENMING CUI 
 WENYI LIANG 

@@ -18,18 +18,23 @@ namespace Assignment2
         {
             
             ILoginService login = new LoginService();
+
             NavigationService navi = new NavigationService();
 
             MainViewModel = new MainViewModel(navi);
             LoginViewModel = new LoginViewModel(login, navi);
 
-            MyMainPage = new NavigationPage(new MainPage());
+            MyMainPage = new NavigationPage(new MainPage())
+            {
+                BarBackgroundColor = Color.FromHex("1976D2")  
+            };
+
             LoginPage = new NavigationPage(new LoginPage());
             Page2 = new NavigationPage(new Page2());
 
             navi.Navi = MyMainPage.Navigation;
             navi.myPage = MyMainPage;
-            InitializeComponent();
+            //InitializeComponent();
             MainPage = MyMainPage;
         }
 

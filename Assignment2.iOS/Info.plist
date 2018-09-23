@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Assignment2</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.Assignment-2</string>
+	<string>com.companyname.Assignment2</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>

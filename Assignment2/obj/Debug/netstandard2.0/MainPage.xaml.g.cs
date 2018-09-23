@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Assignment2.MainPage.xaml", "MainPage.xaml", typeof(global::Assignment2.Views.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Assignment2.MainPage.xaml", "MainPage.xaml", typeof(global::Assignment2.MainPage))]
 
-namespace Assignment2.Views {
+namespace Assignment2 {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainPage.xaml")]

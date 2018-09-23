@@ -1,0 +1,3 @@
+/Users/yunhaopan/Projects/Assignment2/Assignment2/obj/Debug/netstandard2.0/Assignment2.csproj.CoreCompileInputs.cache
+/Users/yunhaopan/Projects/Assignment2/Assignment2/obj/Debug/netstandard2.0/Assignment2.AssemblyInfoInputs.cache
+/Users/yunhaopan/Projects/Assignment2/Assignment2/obj/Debug/netstandard2.0/Assignment2.AssemblyInfo.cs

@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{4F3AC403-8063-4D08-B08E-0184844A9D59}|Default">
+  <MonoDevelop.Ide.ItemProperties.Assignment2.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment2/MVVM/ICommand.cs">
+    <Files>
+      <File FileName="Assignment2/MainPage.xaml" Line="4" Column="34" />
+      <File FileName="Assignment2/App.xaml.cs" Line="12" Column="23" />
+      <File FileName="Assignment2/App.xaml" Line="5" Column="15" />
+      <File FileName="Assignment2/ViewModels/MainViewModel.cs" Line="1" Column="14" />
+      <File FileName="Assignment2/MainPage.xaml.cs" Line="15" Column="55" />
+      <File FileName="Assignment2/Services/NavigationService.cs" Line="10" Column="9" />
+      <File FileName="Assignment2/Services/INavigationService.cs" Line="4" Column="15" />
+      <File FileName="Assignment2/MVVM/ICommand.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assignment2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0F166099-0720-444F-B879-B49CAC5BF1AF" />
+  <MultiItemStartupConfigurations />
+</Properties>

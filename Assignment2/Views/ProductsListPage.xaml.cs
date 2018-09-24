@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Assignment2.ViewModels;
+﻿using Assignment2.ViewModels;
 using Xamarin.Forms;
 
 namespace Assignment2.Views

@@ -6,14 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Humanizer" Version="2.5.1" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Services\" />
-    <Folder Include="MVVM\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="MainPage.xaml.cs" />
   </ItemGroup>
 </Project>

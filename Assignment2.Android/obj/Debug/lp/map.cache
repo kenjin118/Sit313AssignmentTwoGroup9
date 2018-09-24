@@ -25,3 +25,12 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+Humanizer
+Newtonsoft.Json
+CommonServiceLocator
+GalaSoft.MvvmLight
+GalaSoft.MvvmLight.Extras
+GalaSoft.MvvmLight.Platform
+System.Resources.ResourceManager
+System.ComponentModel
+System.Reflection.Extensions

@@ -1,47 +1,83 @@
 using System;
+using System.Collections.Generic;
+using Assignment2.Models;
+using Assignment2.ViewModels;
+using Assignment2.Services;
 using Assignment2.Views;
 using Xamarin.Forms;
+using System.Linq;
 using Xamarin.Forms.Xaml;
-using Assignment2.Services;
-using Assignment2.ViewModels;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Assignment2
 {
     public partial class App : Application
     {
+        private static NavigationPage _firstPage;
+        private static NavigationService NaviService;
 
-        public static MainViewModel MainViewModel { get; set; }
-        public static LoginViewModel LoginViewModel { get; set; }
-
-        public App()
+        static App()
         {
-            
+            // Services
             ILoginService login = new LoginService();
+            IProductLoader loader = new ProductLoader();
+            IProductService products = new ProductService(loader);
+            NaviService = new NavigationService();
 
-            NavigationService navi = new NavigationService();
+            // View Models
+            WelcomeViewModel = new WelcomeViewModel(NaviService);
+            LoginViewModel = new LoginViewModel(login, NaviService);
+            CategoriesListViewModel = new CategoriesListViewModel(products, NaviService);
+            ProductsListViewModel = new ProductsListViewModel(NaviService);
 
-            MainViewModel = new MainViewModel(navi);
-            LoginViewModel = new LoginViewModel(login, navi);
+            // Pages
+            WelcomePage = new WelcomePage();
+            LoginPage = new LoginPage();
+            CategoriesListPage = new CategoriesListPage();
 
-            MyMainPage = new NavigationPage(new MainPage())
-            {
-                BarBackgroundColor = Color.FromHex("1976D2")  
-            };
+            // Startup Page
+            FirstPage = WelcomePage;// CategoriesListPage;
 
-            LoginPage = new NavigationPage(new LoginPage());
-            Page2 = new NavigationPage(new Page2());
+            // Navi
+            NaviService.Navi = FirstPage.Navigation;
+            NaviService.myPage = FirstPage;
+        }
 
-            navi.Navi = MyMainPage.Navigation;
-            navi.myPage = MyMainPage;
-            //InitializeComponent();
-            MainPage = MyMainPage;
+        public static Page CategoriesListPage { get; set; }
+
+        public static CategoriesListViewModel CategoriesListViewModel { get; set; }
+
+        public static Page FirstPage
+        {
+            get { return _firstPage; }
+            set { _firstPage = new NavigationPage(value); }
         }
 
         public static Page LoginPage { get; private set; }
 
-        public static Page MyMainPage { get; private set; }
+        public static LoginViewModel LoginViewModel { get; set; }
 
-        public static Page Page2 { get; private set; }
+        public static ProductsListViewModel ProductsListViewModel { get; set; }
+
+        public static ProductViewModel ProductViewModel { get; set; }
+
+        public static Page WelcomePage { get; private set; }
+
+        public static WelcomeViewModel WelcomeViewModel { get; set; }
+
+        public static Page GetProductPage(ProductViewModel productViewModel)
+        {
+            ProductViewModel = productViewModel;
+            return new ProductPage();
+        }
+
+        public static Page GetProductsListPage(List<Product> products, string title)
+        {
+            if (string.IsNullOrWhiteSpace(title)) title = "Products";
+
+            ProductsListViewModel.Products = products.Select(p => new ProductViewModel(NaviService, p)).ToList();
+            ProductsListViewModel.Title = title;
+            return new ProductsListPage();
+        }
     }
 }

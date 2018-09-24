@@ -3,7 +3,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using Assignment2;
 
-namespace ShoppingCart.ViewModels
+namespace Assignment2.ViewModels
 {
     public class WelcomeViewModel
     {

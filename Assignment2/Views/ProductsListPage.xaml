@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment2.Views.ProductsListPage"
+             xmlns:local="clr-namespace:Assignment2;assembly=Assignment2"
+             BindingContext="{x:Static local:App.ProductsListViewModel}">
+
+  <StackLayout VerticalOptions="FillAndExpand" Padding="50">
+    <Frame>
+      <Label Text="{Binding Title, Mode=TwoWay}"
+        HorizontalOptions="Center"
+        Font="Bold,Large" />
+    </Frame>
+
+    <ListView ItemsSource="{Binding Products}" ItemSelected="OnItemSelected">
+
+      <ListView.ItemTemplate>
+        <DataTemplate>
+
+          <ViewCell>
+            <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal" Padding="10">
+              <Image Aspect="AspectFill"
+                     HeightRequest ="75" WidthRequest="75"
+                     Source="{Binding IconSource.Result}" />
+
+              <Label Text="{Binding Product.Name}" YAlign="Center" Font="Large" />
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+  </StackLayout>
+</ContentPage>

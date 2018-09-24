@@ -108,7 +108,13 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Assignment2.Android.dll" comes first in this list. */
 		"Assignment2.Android.dll",
 		"Assignment2.dll",
+		"CommonServiceLocator.dll",
 		"FormsViewGroup.dll",
+		"GalaSoft.MvvmLight.dll",
+		"GalaSoft.MvvmLight.Extras.dll",
+		"GalaSoft.MvvmLight.Platform.dll",
+		"Humanizer.dll",
+		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

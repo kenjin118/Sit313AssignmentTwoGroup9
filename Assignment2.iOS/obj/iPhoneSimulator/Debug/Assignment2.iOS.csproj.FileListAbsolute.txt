@@ -95,9 +95,9 @@
 /Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.Platform.dll
 /Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.dll
 /Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.pdb
-/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/ibtool/_BundleResourceWithLogicalName.items
-/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_PartialAppManifest.items
-/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_BundleResourceWithLogicalName.items
-/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_PartialAppManifest.items
-/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_BundleResourceWithLogicalName.items
-/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/
+/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/optimized/

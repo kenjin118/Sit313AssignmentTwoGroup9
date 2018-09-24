@@ -41,9 +41,7 @@ namespace Assignment2
             // Navi
             NaviService.Navi = FirstPage.Navigation;
             NaviService.myPage = FirstPage;
-
             MainPage = NaviService.myPage;
-
         }
 
         public static Page CategoriesListPage { get; set; }
@@ -60,13 +58,19 @@ namespace Assignment2
 
         public static LoginViewModel LoginViewModel { get; set; }
 
-        public static ProductsListViewModel ProductsListViewModel { get; set; }
-
         public static ProductViewModel ProductViewModel { get; set; }
+
+        public static ProductsListViewModel ProductsListViewModel { get; set; }
 
         public static Page WelcomePage { get; private set; }
 
         public static WelcomeViewModel WelcomeViewModel { get; set; }
+
+        public static Page GetProductPage(Product product)
+        {
+            var vm = new ProductViewModel(product);
+            return GetProductPage(vm);
+        }
 
         public static Page GetProductPage(ProductViewModel productViewModel)
         {
@@ -78,7 +82,7 @@ namespace Assignment2
         {
             if (string.IsNullOrWhiteSpace(title)) title = "Products";
 
-            ProductsListViewModel.Products = products.Select(p => new ProductViewModel(NaviService, p)).ToList();
+            ProductsListViewModel.Products = products.Select(p => new ProductViewModel(p)).ToList();
             ProductsListViewModel.Title = title;
             return new ProductsListPage();
         }

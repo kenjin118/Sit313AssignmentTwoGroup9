@@ -1,5 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using System.Threading.Tasks;
 namespace Assignment2.Services
 {

@@ -6,13 +6,12 @@ namespace Assignment2.ViewModels
 {
     public class ProductViewModel : BaseViewModel
     {
-        private readonly INavigationService _navi;
+        private const string _resource = "Assignment2.Resources.placeholderImageSmall.png";
 
-        public ProductViewModel(INavigationService navi, Product product)
+        public ProductViewModel(Product product)
         {
-            _navi = navi;
             Product = product;
-            IconSource = AsyncImageSource.FromUriAndResource(product.IconUrl, "ShoppingCart.Resources.placeholderImageSmall.png");
+            IconSource = AsyncImageSource.FromUriAndResource(product.IconUrl, _resource);
         }
 
         public NotifyTaskCompletion<ImageSource> IconSource { get; private set; }
@@ -23,4 +22,5 @@ namespace Assignment2.ViewModels
             set { SetValue(value); }
         }
     }
+
 }

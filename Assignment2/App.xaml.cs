@@ -16,7 +16,7 @@ namespace Assignment2
         private static NavigationPage _firstPage;
         private static NavigationService NaviService;
 
-        static App()
+        public App()
         {
             // Services
             ILoginService login = new LoginService();
@@ -41,6 +41,9 @@ namespace Assignment2
             // Navi
             NaviService.Navi = FirstPage.Navigation;
             NaviService.myPage = FirstPage;
+
+            MainPage = NaviService.myPage;
+
         }
 
         public static Page CategoriesListPage { get; set; }

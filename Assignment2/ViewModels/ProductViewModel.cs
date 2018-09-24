@@ -12,7 +12,7 @@ namespace Assignment2.ViewModels
         {
             _navi = navi;
             Product = product;
-            IconSource = AsyncImageSource.FromUriAndResource(product.IconUrl, "Assignment2.Resources.placeholderImageSmall.png");
+            IconSource = AsyncImageSource.FromUriAndResource(product.IconUrl, "ShoppingCart.Resources.placeholderImageSmall.png");
         }
 
         public NotifyTaskCompletion<ImageSource> IconSource { get; private set; }

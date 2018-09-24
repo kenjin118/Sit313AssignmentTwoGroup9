@@ -22,7 +22,7 @@ namespace Assignment2.ViewModels
 
             NavigateToCategory = new RelayCommand<string>(async cat =>
             {
-                
+
                 var items = (await _service.GetProductsForCategory(cat))
                     .OrderByDescending(i => i.Rating)
                     .ToList();

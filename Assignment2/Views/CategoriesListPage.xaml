@@ -1,5 +1,27 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Assignment2.Views.CategoriesListPage">
-    <ContentPage.Content>
-    </ContentPage.Content>
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment2.Views.CategoriesListPage"
+             xmlns:local="clr-namespace:Assignment2;assembly=Assignment2"
+             BindingContext="{x:Static local:App.CategoriesListViewModel}">
+
+  <StackLayout VerticalOptions="FillAndExpand" Padding="50">
+    <Frame>
+      <Label Text="Categories"
+        HorizontalOptions="Center"
+        Font="Bold,Large" />
+    </Frame>
+
+    <ListView ItemsSource="{Binding Categories.Result}" IsGroupingEnabled="false" ItemSelected="OnItemSelected">
+
+      <ListView.ItemTemplate>
+        <DataTemplate>
+
+          <ViewCell>
+            <Label Text="{Binding .}" YAlign="Center" Font="Large" />
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
 </ContentPage>

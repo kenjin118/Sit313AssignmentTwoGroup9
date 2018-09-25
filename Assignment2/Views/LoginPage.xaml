@@ -11,7 +11,12 @@
       <Label Text="Login" 
         Font="Bold,Large"
         TextColor="Yellow"
-        HorizontalOptions="Center" />
+        HorizontalOptions="Center">  <Label.TextColor>
+          <OnPlatform x:TypeArguments="Color"
+             iOS="Accent"
+             Android="#afcca6" />
+        </Label.TextColor>
+            </Label>
     </Frame>
 
     <Label Text="User name" 

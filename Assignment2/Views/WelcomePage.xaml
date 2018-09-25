@@ -8,7 +8,7 @@
   <StackLayout
     VerticalOptions="Center">
     <Frame>
-      <Label Text="Welcome to The Store" Font="Bold, Large" HorizontalOptions="Center" />
+      <Label Text="Welcome to The Store" Font="Bold, Large" HorizontalOptions="Center"  />
     </Frame>
 
     <Label Text="Login to start shopping" HorizontalOptions="Center" />

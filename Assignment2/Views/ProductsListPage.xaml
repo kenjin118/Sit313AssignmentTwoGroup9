@@ -9,7 +9,13 @@
     <Frame>
       <Label Text="{Binding Title, Mode=TwoWay}"
         HorizontalOptions="Center"
-        Font="Bold,Large" />
+        Font="Bold,Large" >
+                <Label.TextColor>
+          <OnPlatform x:TypeArguments="Color"
+             iOS="Accent"
+             Android="#afcca6" />
+        </Label.TextColor>
+      </Label>
     </Frame>
 
     <ListView ItemsSource="{Binding Products}" ItemSelected="OnItemSelected">

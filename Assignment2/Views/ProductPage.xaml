@@ -8,7 +8,13 @@
     <StackLayout VerticalOptions="FillAndExpand" Padding="50">
       <Label Text="{Binding Product.Name}"
         HorizontalOptions="Center"
-        Font="Bold,Large" />
+        Font="Bold,Large" >
+            <Label.TextColor>
+          <OnPlatform x:TypeArguments="Color"
+             iOS="Accent"
+             Android="#afcca6" />
+        </Label.TextColor>
+      </Label>
 
       <Image Aspect="AspectFill"
              HorizontalOptions="FillAndExpand"

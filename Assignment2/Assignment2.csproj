@@ -14,4 +14,7 @@
     <Folder Include="Views\" />
     <Folder Include="Resources\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Behaviors\AnimateSizeBehavior.cs" />
+  </ItemGroup>
 </Project>

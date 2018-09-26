@@ -16,3 +16,12 @@
 /Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2/obj/Debug/netstandard2.0/Assignment2.dll
 /Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2/obj/Debug/netstandard2.0/Assignment2.pdb
 /Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2/obj/Debug/netstandard2.0/Assignment2.csprojResolveAssemblyReference.cache
+/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/bin/Debug/netstandard2.0/Assignment2.deps.json
+/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/bin/Debug/netstandard2.0/Assignment2.dll
+/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/bin/Debug/netstandard2.0/Assignment2.pdb
+/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/obj/Debug/netstandard2.0/Assignment2.csprojResolveAssemblyReference.cache
+/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/obj/Debug/netstandard2.0/Assignment2.csproj.CoreCompileInputs.cache
+/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/obj/Debug/netstandard2.0/Assignment2.AssemblyInfoInputs.cache
+/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/obj/Debug/netstandard2.0/Assignment2.AssemblyInfo.cs
+/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/obj/Debug/netstandard2.0/Assignment2.dll
+/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/obj/Debug/netstandard2.0/Assignment2.pdb

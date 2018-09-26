@@ -3512,11 +3512,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2.iOS/Assignment2.iOS.csproj",
+      "projectUniqueName": "/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2.iOS/Assignment2.iOS.csproj",
       "projectName": "Assignment2.iOS",
-      "projectPath": "/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2.iOS/Assignment2.iOS.csproj",
+      "projectPath": "/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2.iOS/Assignment2.iOS.csproj",
       "packagesPath": "/Users/yunhaopan/.nuget/packages/",
-      "outputPath": "/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2.iOS/obj",
+      "outputPath": "/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yunhaopan/.config/NuGet/NuGet.Config"
@@ -3530,8 +3530,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2/Assignment2.csproj": {
-              "projectPath": "/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2/Assignment2.csproj"
+            "/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/Assignment2.csproj": {
+              "projectPath": "/Users/yunhaopan/Desktop/Sit313AssignmentTwoGroup9-master/Assignment2/Assignment2.csproj"
             }
           }
         }

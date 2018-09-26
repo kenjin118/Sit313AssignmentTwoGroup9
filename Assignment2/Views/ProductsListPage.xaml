@@ -3,19 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Assignment2.Views.ProductsListPage"
              xmlns:local="clr-namespace:Assignment2;assembly=Assignment2"
-             BindingContext="{x:Static local:App.ProductsListViewModel}">
+             BindingContext="{x:Static local:App.ProductsListViewModel}" BackgroundColor="#191919">
 
   <StackLayout VerticalOptions="FillAndExpand" Padding="50">
-    <Frame>
+    <Frame BackgroundColor="#191919" HasShadow="false" BorderColor="#191919">
       <Label Text="{Binding Title, Mode=TwoWay}"
+             TextColor="#ffa028"
         HorizontalOptions="Center"
-        Font="Bold,Large" >
-                <Label.TextColor>
-          <OnPlatform x:TypeArguments="Color"
-             iOS="Accent"
-             Android="#afcca6" />
-        </Label.TextColor>
-      </Label>
+        Font="Bold,Large" />
     </Frame>
 
     <ListView ItemsSource="{Binding Products}" ItemSelected="OnItemSelected">
@@ -29,7 +24,7 @@
                      HeightRequest ="75" WidthRequest="75"
                      Source="{Binding IconSource.Result}" />
 
-              <Label Text="{Binding Product.Name}" YAlign="Center" Font="Large" />
+              <Label TextColor="#d7d7d7" Text="{Binding Product.Name}" YAlign="Center" Font="Large" />
             </StackLayout>
           </ViewCell>
         </DataTemplate>

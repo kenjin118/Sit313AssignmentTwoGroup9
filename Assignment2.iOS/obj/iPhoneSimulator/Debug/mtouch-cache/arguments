@@ -1,7 +1,7 @@
 # Version: 11.12.0.4 (d15-7: 64fece5f)
-# [first argument, ignore] # --cache=/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/mtouch-cache
+# [first argument, ignore] # --cache=/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2.iOS/obj/iPhoneSimulator/Debug/mtouch-cache
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/lib/mtouch/mtouch.exe \
-	--sim=/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/bin/iPhoneSimulator/Debug/Assignment2.iOS.app \
+	--sim=/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2.iOS/bin/iPhoneSimulator/Debug/Assignment2.iOS.app \
 	--executable=Assignment2.iOS \
 	--debug \
 	--nolink \
@@ -11,9 +11,9 @@
 	--aot-options=-O=-float32 \
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
-	--symbollist=/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--symbollist=/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
-	-r=/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2/bin/Debug/netstandard2.0/Assignment2.dll \
+	-r=/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2/bin/Debug/netstandard2.0/Assignment2.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -242,6 +242,6 @@
 	-r=/Users/yunhaopan/.nuget/packages/xamarin.forms/3.0.0.482510/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r=/Users/yunhaopan/.nuget/packages/xamarin.forms/3.0.0.482510/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r=/Users/yunhaopan/.nuget/packages/xamarin.forms/3.0.0.482510/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
-	-r=/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2/bin/Debug/netstandard2.0/Assignment2.dll \
+	-r=/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2/bin/Debug/netstandard2.0/Assignment2.dll \
 	'--target-framework=Xamarin.iOS,v1.0' \
-	--root-assembly=/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.iOS/bin/iPhoneSimulator/Debug/Assignment2.iOS.exe \
+	--root-assembly=/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2.iOS/bin/iPhoneSimulator/Debug/Assignment2.iOS.exe \

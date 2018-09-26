@@ -3,19 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Assignment2.Views.WelcomePage"
              xmlns:local="clr-namespace:Assignment2;assembly=Assignment2"
-             BindingContext="{x:Static local:App.WelcomeViewModel}">
+             BindingContext="{x:Static local:App.WelcomeViewModel}" BackgroundColor="#191919">
 
   <StackLayout
     VerticalOptions="Center">
-    <Frame>
-      <Label Text="Welcome to The Store" Font="Bold, Large" HorizontalOptions="Center"  />
+    <Frame HasShadow="false" BackgroundColor="#191919" BorderColor="#191919">
+      <Label TextColor="#ffa028" Text="Welcome to The Shopping App" Font="Bold,Large" HorizontalOptions="Center" />
     </Frame>
 
-    <Label Text="Login to start shopping" HorizontalOptions="Center" />
+    <Label FontSize="Medium" TextColor="#646464" Text="Click login to start shopping" HorizontalOptions="Center" />
 
-    <Frame>
+    <Frame BorderColor="#191919" BackgroundColor="#191919" HasShadow=" false">
       
-    <Button Text ="Log In" Command="{Binding GoToLoginPageCommand}" HorizontalOptions="Center" />
+    <Button WidthRequest="125" BackgroundColor="#282828" TextColor="#d7d7d7" Text ="Log In" Command="{Binding GoToLoginPageCommand}" HorizontalOptions="Center" />
     </Frame>
   </StackLayout>
 </ContentPage>

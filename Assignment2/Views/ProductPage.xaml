@@ -3,18 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Assignment2.Views.ProductPage"
              xmlns:local="clr-namespace:Assignment2;assembly=Assignment2"
-             BindingContext="{x:Static local:App.ProductViewModel}">
+             BindingContext="{x:Static local:App.ProductViewModel}" BackgroundColor="#191919">
   <ScrollView>
     <StackLayout VerticalOptions="FillAndExpand" Padding="50">
       <Label Text="{Binding Product.Name}"
         HorizontalOptions="Center"
-        Font="Bold,Large" >
-            <Label.TextColor>
-          <OnPlatform x:TypeArguments="Color"
-             iOS="Accent"
-             Android="#afcca6" />
-        </Label.TextColor>
-      </Label>
+        Font="Bold,Large" TextColor="#ffa028"/>
 
       <Image Aspect="AspectFill"
              HorizontalOptions="FillAndExpand"
@@ -22,11 +16,11 @@
 
       <Label Text="{Binding Product.Description}"
         HorizontalOptions="Start"
-        Font="Medium" />
+        Font="Medium" TextColor="#d7d7d7"/>
 
       <Label Text="{Binding Product.Price, StringFormat='{0:c}'}"
         HorizontalOptions="Start"
-        Font="Bold,Medium" />
+        Font="Bold,Medium" TextColor="#d7d7d7" />
     </StackLayout>
   </ScrollView>
 </ContentPage>

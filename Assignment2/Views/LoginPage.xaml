@@ -3,35 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Assignment2;assembly=Assignment2"
              BindingContext="{x:Static local:App.LoginViewModel}"
-             x:Class="Assignment2.Views.LoginPage">
+             x:Class="Assignment2.Views.LoginPage" BackgroundColor="#191919">
 
   <StackLayout VerticalOptions="FillAndExpand" Padding="50">
 
-    <Frame Padding="75">
-      <Label Text="Login" 
-        Font="Bold,Large"
-        TextColor="Yellow"
-        HorizontalOptions="Center">  <Label.TextColor>
-          <OnPlatform x:TypeArguments="Color"
-             iOS="Accent"
-             Android="#afcca6" />
-        </Label.TextColor>
-            </Label>
+    <Frame  HorizontalOptions="Center" WidthRequest="375" HasShadow="false"  BackgroundColor="#191919" BorderColor="#191919" Padding="50">
+      <Label Text="Please Login"
+             WidthRequest="209"
+             XAlign="Center"
+        Font="Bold"
+        TextColor="#ffa028"
+             FontSize="23"
+         VerticalOptions="Center"
+        HorizontalOptions="Center" />
     </Frame>
 
-    <Label Text="User name" 
+    <Label TextColor="#d7d7d7" Text="User name" 
       HorizontalOptions="Start" />
     <Entry Text ="{Binding Username}" 
-      Placeholder ="User name goes here" 
+      Placeholder ="Enter username" 
+           PlaceholderColor="#646464"
+           TextColor="#646464"
       HorizontalOptions="FillAndExpand" />
 
-    <Label Text="Password" 
+    <Label TextColor="#d7d7d7" Text="Password" 
       HorizontalOptions="Start" />
     <Entry Text ="{Binding Password}" 
-      Placeholder ="Password goes here" 
+      Placeholder ="Enter Password" 
+           PlaceholderColor="#646464"
+           TextColor="#646464"
       HorizontalOptions="FillAndExpand" />
 
-    <Button Text ="Log In" 
+    <Button Margin="30" WidthRequest="125" BackgroundColor="#282828" TextColor="#d7d7d7" Text ="Login" 
       Command="{Binding LoginCommand}" 
       HorizontalOptions="CenterAndExpand" />
 

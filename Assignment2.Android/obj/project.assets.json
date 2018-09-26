@@ -1962,11 +1962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.Android/Assignment2.Android.csproj",
+      "projectUniqueName": "/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2.Android/Assignment2.Android.csproj",
       "projectName": "Assignment2.Android",
-      "projectPath": "/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.Android/Assignment2.Android.csproj",
+      "projectPath": "/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2.Android/Assignment2.Android.csproj",
       "packagesPath": "/Users/yunhaopan/.nuget/packages/",
-      "outputPath": "/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2.Android/obj",
+      "outputPath": "/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yunhaopan/.config/NuGet/NuGet.Config"
@@ -1980,8 +1980,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2/Assignment2.csproj": {
-              "projectPath": "/Users/yunhaopan/Projects/Assignment2/Assignment2/Assignment2/Assignment2.csproj"
+            "/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2/Assignment2.csproj": {
+              "projectPath": "/Users/yunhaopan/Downloads/Sit313AssignmentTwoGroup9-master/Assignment2/Assignment2.csproj"
             }
           }
         }
